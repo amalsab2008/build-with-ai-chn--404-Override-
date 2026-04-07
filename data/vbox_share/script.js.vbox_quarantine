@@ -1,0 +1,67 @@
+let lastCount = 0;
+
+function formatTime(isoString) {
+    const d = new Date(isoString);
+    return d.toLocaleTimeString('en-US', { hour12: false }) + '.' + d.getMilliseconds();
+}
+
+function getScoreColor(score) {
+    if (score > 80) return 'var(--neon-red)';
+    if (score >= 50) return 'var(--neon-yellow)';
+    return 'var(--neon-green)';
+}
+
+async function updateDashboard() {
+    try {
+        const statsRes = await fetch('/api/stats');
+        const stats = await statsRes.json();
+        
+        document.getElementById('val-total').innerText = stats.totalScans;
+        document.getElementById('val-blocked').innerText = stats.threatsBlocked;
+        document.getElementById('val-sandbox').innerText = stats.sandboxed;
+        document.getElementById('val-safe').innerText = stats.safe;
+
+        const req = await fetch('/api/history');
+        const history = await req.json();
+
+        // If a new item was added
+        if (history.length > lastCount) {
+            const feed = document.getElementById('feed-container');
+            feed.innerHTML = ''; // Rebuild for demo simplicity
+            
+            // Reverse so newest is at the top
+            history.slice().reverse().forEach(scan => {
+                const row = document.createElement('div');
+                row.className = 'feed-row';
+                
+                const scoreColor = getScoreColor(scan.result.riskScore);
+                const scoreWidth = scan.result.riskScore === -1 ? 0 : scan.result.riskScore;
+
+                row.innerHTML = `
+                    <div style="color: var(--text-dim)">${formatTime(scan.timestamp)}</div>
+                    <div style="color: #fff; font-weight: bold;">${scan.filename}</div>
+                    <div style="color: var(--text-dim)">${scan.result.classification}</div>
+                    <div class="score-bar">
+                        <span style="color: ${scoreColor}">${scan.result.riskScore}%</span>
+                        <div class="score-fill">
+                            <div class="score-inner" style="width: ${scoreWidth}%; background: ${scoreColor}"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="action-pill pill-${scan.result.decision}">${scan.result.decision}</div>
+                    </div>
+                `;
+                
+                feed.appendChild(row);
+            });
+            lastCount = history.length;
+        }
+
+    } catch (err) {
+        console.error("Dashboard Sync Error:", err);
+    }
+}
+
+// Poll every 1 second
+setInterval(updateDashboard, 1000);
+updateDashboard();

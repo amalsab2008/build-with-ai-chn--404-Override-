@@ -1,0 +1,5 @@
+Hello team,
+This is just a standard text file containing the meeting notes.
+- Discussed Q3 roadmap
+- Need to update the servers with latest patches
+Best, Alice

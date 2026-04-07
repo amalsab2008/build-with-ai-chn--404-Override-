@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelAI Command Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-grid"></div>
+    <div class="glow-orb"></div>
+    
+    <header class="glass-panel">
+        <div class="logo-container">
+            <div class="status-dot pulsing"></div>
+            <h1>SentinelAI <span class="neon-text">Command Center</span></h1>
+        </div>
+        <div class="node-status">
+            <div class="node active">Endpoint Sensor</div>
+            <div class="node-connection"></div>
+            <div class="node active">Cloud AI Worker</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="metrics-row">
+            <div class="metric-card glass-panel">
+                <h3>Total Intercepts</h3>
+                <div class="metric-value" id="val-total">0</div>
+            </div>
+            <div class="metric-card glass-panel">
+                <h3>Critical Threats Destroyed</h3>
+                <div class="metric-value text-red" id="val-blocked">0</div>
+            </div>
+            <div class="metric-card glass-panel">
+                <h3>Sandboxed</h3>
+                <div class="metric-value text-yellow" id="val-sandbox">0</div>
+            </div>
+            <div class="metric-card glass-panel">
+                <h3>Safe Files</h3>
+                <div class="metric-value text-green" id="val-safe">0</div>
+            </div>
+        </section>
+
+        <section class="live-feed-section glass-panel">
+            <div class="feed-header">
+                <h2>Real-Time Threat Stream</h2>
+                <span class="badge">Live</span>
+            </div>
+            <div class="table-header">
+                <div>Timestamp</div>
+                <div>Target File</div>
+                <div>Classification</div>
+                <div>Risk</div>
+                <div>Action Taken</div>
+            </div>
+            <div class="feed-container" id="feed-container">
+                <!-- Data injected via JS -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

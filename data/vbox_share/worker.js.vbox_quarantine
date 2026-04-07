@@ -1,0 +1,42 @@
+require('dotenv').config();
+const pubsub = require('./pubsub');
+const { analyzeThreat, analyzeEmail } = require('./ai');
+const path = require('path');
+
+console.log(`\n===========================================`);
+console.log(`☁️   SentinelAI Cloud Worker Online  ☁️`);
+console.log(`===========================================\n`);
+
+pubsub.subscribe('sentinel-scan-requests', async (message) => {
+  const { filePath } = message;
+  const filename = path.basename(filePath);
+  
+  console.log(`\n[WORKER] 📥 PULL: Processing ${filename}...`);
+  
+  let result;
+  try {
+    if (filename.toLowerCase().endsWith('.eml') || filename.toLowerCase().endsWith('.msg') || filename.toLowerCase().endsWith('.url') || filename.toLowerCase().endsWith('.html')) {
+        result = await analyzeEmail(filePath);
+    } else {
+        result = await analyzeThreat(filePath);
+    }
+  } catch(e) {
+    console.log('[WORKER ERROR] Failed to analyze file: ' + e.message);
+    return;
+  }
+  
+  console.log(`+---[ AI ANALYSIS RESULTS ]---+`);
+  console.log(`| File:           ${filename}`);
+  console.log(`| Classification: ${result.classification}`);
+  console.log(`| Risk Score:     ${result.riskScore}%`);
+  console.log(`| Decision:       ${result.decision}`);
+  console.log(`| Reasoning:      ${result.reasoning}`);
+  console.log(`+-----------------------------+\n`);
+  
+  console.log(`[WORKER] ✅ DONE: Pushing results back to endpoint.`);
+  
+  pubsub.publish('sentinel-scan-results', {
+    filePath,
+    result
+  });
+});

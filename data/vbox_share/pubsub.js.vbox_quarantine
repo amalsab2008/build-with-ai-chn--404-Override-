@@ -1,0 +1,58 @@
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+
+class LocalPubSub {
+  constructor() {
+    this.queueDir = path.join(__dirname, '..', 'data', 'queue');
+    if (!fs.existsSync(this.queueDir)) {
+      fs.mkdirSync(this.queueDir, { recursive: true });
+    }
+  }
+
+  publish(topic, payload) {
+    const topicDir = path.join(this.queueDir, topic);
+    if (!fs.existsSync(topicDir)) {
+      fs.mkdirSync(topicDir, { recursive: true });
+    }
+
+    const messageId = crypto.randomUUID();
+    const filePath = path.join(topicDir, `${messageId}.json`);
+    
+    // Acknowledge sending payload silently to architecture
+    fs.writeFileSync(filePath, JSON.stringify(payload, null, 2));
+    console.log(`[PUB/SUB] 📡 Published event out to topic: [${topic}]`);
+  }
+
+  subscribe(topic, callback) {
+    const topicDir = path.join(this.queueDir, topic);
+    if (!fs.existsSync(topicDir)) {
+      fs.mkdirSync(topicDir, { recursive: true });
+    }
+
+    console.log(`[PUB/SUB] 🎧 Hooked subscription stream into: [${topic}]`);
+    
+    setInterval(() => {
+      try {
+        const files = fs.readdirSync(topicDir);
+        for (const file of files) {
+          if (!file.endsWith('.json')) continue;
+          
+          const filePath = path.join(topicDir, file);
+          const rawData = fs.readFileSync(filePath, 'utf8');
+          const payload = JSON.parse(rawData);
+          
+          // Delete message to acknowledge it was pulled (mimics pub/sub ack)
+          fs.unlinkSync(filePath);
+          
+          // Fire non-blocking callback
+          callback(payload);
+        }
+      } catch (err) {
+        // graceful fail if file locked during sync
+      }
+    }, 500); // Fast 500ms polling rate
+  }
+}
+
+module.exports = new LocalPubSub();
