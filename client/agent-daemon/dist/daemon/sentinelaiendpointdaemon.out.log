@@ -79,3 +79,158 @@
 [Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsRecentClosed\b9532835-af63-4605-8132-f680a22756a0.tmp
 [🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
 [Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_34_18_319Z-debug-0.log
+[🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
+[🚫 NETWORK ALERT] Sub-process attempting outbound connection to known C2 server (104.24.11.2)!
+[🚫 NETWORK ALERT] Intercepting socket and forcing TCP RST...
+[Alert] New file detected: C:\Users\amals\AppData\Local\NVIDIA Corporation\NVIDIA Overlay\CefCache\Default\Network\31cab5ed-2144-4f90-bfc1-01ffdb3e94bd.tmp
+[Alert] New file detected: C:\Users\amals\Downloads\secure\apps\mobile-soc\pubspec.yaml
+[Alert] New file detected: C:\Users\amals\Downloads\secure\apps\mobile-soc\lib\main.dart
+[🚫 NETWORK ALERT] Sub-process attempting outbound connection to known C2 server (104.24.11.2)!
+[🚫 NETWORK ALERT] Intercepting socket and forcing TCP RST...
+[🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\lockfile
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\BrowserMetrics\BrowserMetrics-69D758EB-1F6C.pma
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalState\Logs\Log-GameBarLoggingSession-1.etl
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalCache\testFile.txt
+[Alert] New file detected: C:\Users\amals\AppData\Roaming\Microsoft\Windows\Recent\ms-gamingoverlay--startuptips-pid=8044&WindowId=5571920.lnk
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalState\DiagOutputDir\XboxGamingOverlayTraces_FT_Server_20260409074444.txt
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalCache\kglDL.bin
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalCache\kgl.bin
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\Logs\Log-XboxGameBarWidgetsLoggingSession-1.etl
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\SharedStorage-wal
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\5d19bf68-e749-4091-acf2-2b4425d3ad0d.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\e4492663-251f-4db9-b5c5-ec28aeae3d06.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Roaming\Microsoft\Windows\Recent\ms-gamingoverlay--startuptips-pid=8044&WindowId=1574808.lnk
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\e15a0122-8947-4a17-bdde-921cb937e1dd.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\e41d0f54-ca5d-43b9-9617-3ff65fe440c6.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e89
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\CrashpadMetrics.pma
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\lockfile
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\BrowserMetrics\BrowserMetrics-69D758EE-2C3C.pma
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\SharedStorage-wal
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\AC\Temp\50cadc24-ac57-4bd0-9618-05c3afe43544.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Sessions\Session_13420194287987389
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Sessions\Tabs_13420194288095272
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\5c7aac90-2cfa-4ea7-9f7c-bb7cf8c526af.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\GCM Store\LOG.old~RFd83657.TMP
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalState\profileDataSettings.txt
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\GCM Store\LOG
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\DIPS-wal
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\optimization_guide_hint_cache_store\LOG.old~RFd83c23.TMP
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\optimization_guide_hint_cache_store\LOG
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\4efbec0d-3778-4e80-b5f1-504452c5e65f.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\520ff63c-d64e-4bce-a328-1e544f250d36.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e8a
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\692d9f04a6dde713_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d18
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e8b
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e8c
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\2400c1befaa35fce_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\43eb6a29440eedc7_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\994cb305a345961b_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\c04ff95ef007f43c_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e8d
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e8e
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\5c7f1b361780356f_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\c142e0860743fe2a_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\f12e30d9625442e3_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\07c68b79-926f-41f7-be3e-3b8a55d05e1b.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e8f
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e90
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e91
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e92
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e93
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e94
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e95
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e96
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\2087e4951593b8f6_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3669a35853c21181_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3c7ee88de3d0dee4_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3f1bd01dcc8ef34a_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\415860423d86a929_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\581ab919d04bc471_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\7d36f171f3f19134_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\954eec08959ca364_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\ad5fa3c7bcc40fe2_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\b525cdd4d52100e6_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\bc52e85e2d0d0d68_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\bd4b239846a37aaf_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d19
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d1a
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e97
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e98
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e99
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e9a
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e9b
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\0517dfc5b6863e1a_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\076b9faa7568f1bd_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\08dbc46ce3dd9cbc_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\0f8fdeb8be52ae5c_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3424f038459e32b8_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\4840d1d1fbf832ce_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\53e9b9558067d346_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\84510c61cd989aee_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\98c1f3c2eea2c25d_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\a4764209c430bf3e_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\b8ae082d18cfc961_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\d1812a1822b94702_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\f5b466da53387946_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Service Worker\ScriptCache\036a94e7c54e1b59_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Service Worker\ScriptCache\5dacfdb051e3cfff_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d1b
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\10e5e8c421bd0de9_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\7b5315e3cd26be66_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\c8f12cc1effb38a1_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\e2b038f57cde924a_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\f1165acfe938e202_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\f1b3c68768eadbd6_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e9c
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e9d
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\04bf4abc08a11789_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3adac722cfa90dc4_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3d2bf1736dfe9438_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3d2ee093065e9cf3_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\65a00e3a2d726227_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\6eb93148fd530f93_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\794bb7b23be26891_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\7b87796de9c60f31_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\86c95429953a6b3c_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\8b5eac9f88a989a4_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\a14b91a9745fe01c_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e9e
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e9f
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\cce1a0abb9226b1f_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\e132cecb2388dc25_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\e8afbd770c1e657d_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea2
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\c213b7c2b320bb21_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea3
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea4
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea6
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea5
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d1c
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\1982e98547c54fb1_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\322f2257d021cf45_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3a8819c3ff540d79_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\43e88a49f544fb04_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\494083c0c0dee7d4_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\5e02e5591d9deb49_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\6f93d4df1118bf02_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\817110d0e4ba7aaa_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\8a013f2aecfc2db2_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\9a07cda0a78911d0_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\a013bdedc4de70a0_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\cc95313095330146_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\e9c5a5490bd69d5b_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\f2802d02e9bc61d8_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea7
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea8
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\b0da4b5188e981c9_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\44cad079e48a34f4_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004ea9
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\ceef726a34c3161a_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d1d
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\EdgeJourneys\EdgeJourneys.db-wal
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\DIPS-wal
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\AutofillAiModelCache\LOG
