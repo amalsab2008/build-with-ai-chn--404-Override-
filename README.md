@@ -1,63 +1,82 @@
-# SentinelAI 🛡️
+# 🛡️ SentinelAI Enterprise XDR
 
-## Problem Statement
-Modern cyber threats, such as polymorphic malware and zero-day phishing attacks, evolve faster than traditional signature-based antivirus software can update. Security Operations Center (SOC) analysts are often overwhelmed with alerts, while standard endpoint users remain vulnerable to evasive macro-documents and disguised URL shortcuts that easily bypass static security checkpoints.
+SentinelAI is an advanced, distributed Extended Detection and Response (XDR) platform powered by real-time Generative AI. 
 
-## Project Description
-SentinelAI is a real-time, AI-powered Endpoint Detection and Response (EDR) native agent. Operating completely in the background via Node.js file streams, it autonomously guards critical system directories (like `Downloads`). The moment a file drops onto the machine, SentinelAI intercepts it, parses its raw hex/text buffers, and routes it to an onboard AI decision engine. 
+Built on a microservices mesh, it transforms disjointed endpoints into a unified, zero-trust hive-mind capable of blocking zero-day malware, phishing campaigns, and lateral movement in sub-second latency.
 
-Based on dynamic AI heuristics, the system autonomously executes mitigation protocols:
-- **0-49% (Safe):** File is permitted seamlessly.
-- **50-90% (Sandbox Threshold):** The file is neutralized extension-wise and physically routed into a VirtualBox Shared Dropzone (`vbox_share`) for safe isolation, while a mock-sandbox behavioral replay is logged in the terminal.
-- **91-100% (Critical):** The agent bypasses quarantine and permanently hard-deletes (`fs.unlinkSync`) the zero-day malware before the user can accidentally double-click it.
+## 🚀 The Architecture (6 Core Modules)
 
-The entire architecture is visually tracked via a sleek, local Express.js **Premium Web Dashboard** that streams intercepted threats, scoring metrics, and AI classifications asynchronously.
+SentinelAI has evolved from a basic folder-monitor into a full enterprise suite:
 
-## Google AI Usage
-### Tools / Models Used
-* Google Generative AI SDK (`@google/generative-ai`)
-* Model: `gemini-2.5-flash`
+1. **Endpoint Agent Daemon (`client/agent-daemon`)**
+   - Headless background service built on Rust/C++ Native OS hooks.
+   - Monitors physical file drops and executes `network_isolate` lockdown protocols if Trust Score drops too low.
 
-### How Google AI Was Used
-Google Gemini serves as the core "Brain" of the EDR tool. Instead of relying on rigid string matching, Sentinel extracts the raw contents of unknown executables, PowerShell scripts, `.url` web shortcuts, and `.eml` phishing architectures and feeds them directly into custom system prompts. 
+2. **Zero Trust Browser Extension (`client/browser-extension`)**
+   - Manifest V3 Chrome extension.
+   - Pauses and halts malicious web downloads before they hit the disk.
+   - Implements aggressive phishing block-screens against suspicious C2 domains.
 
-Gemini acts as an elite SOC Analyst. It performs few-shot reasoning to determine the malicious intent of obscured scripts or social-engineering language, returning a cleanly structured JSON response containing:
-1. `riskScore` (0-100)
-2. `classification` (e.g., "Credential Harvesting Email" or "Evasive PowerShell Script")
-3. `decision` (ALLOW, WARN, SANDBOX, BLOCK)
-4. `reasoning` (Contextual explanations for the user)
+3. **Cloud API Gateway (`apps/api-gateway`)**
+   - The central brain orchestrating all telemetry via WebSockets and REST.
+   - Integrates directly with Gemini 2.5 Flash for deep heuristic analysis of strange files and URLs.
 
-If the API limit is reached, Sentinel elegantly falls back on a native "Offline Heuristics Engine" to confidently assign scores without breaking operations.
+4. **Global Threat Intel Engine (`services/threat-intel`)**
+   - In-memory blazing-fast microservice.
+   - Creates a global swarm intelligence: if one agent detects a brand new zero-day, the Intel Engine synchronizes that hash globally to block it for all other agents *instantly*.
 
-## Proof of Google AI Usage
-*(Please review the `/proof` folder in the repository for logs showing live Gemini JSON responses.)*
+5. **Sandbox Engine (`services/sandbox-engine`)**
+   - Dockerized sandbox microservice.
+   - Dynamically detonates unknown payloads in a zero-network secure container to harvest forensics, permanently generating signatures if the file acts maliciously.
 
-## Screenshots
-*(Insert your own image links here)*
-* [Screenshot 1: The Hacker Green Real-Time Threat Stream Dashboard]
-* [Screenshot 2: Windows Native Desktop UI Popup Alerting a Blocked Phishing URL]
-* [Screenshot 3: Terminal View showing Sandbox Execution and File Deletion]
+6. **Zero Trust Identity Engine (`services/identity-engine`)**
+   - Stateful device monitor tracking "Trust Scores" for every endpoint.
+   - If a machine triggers too many alarms, the engine dynamically commands an OS-level lockdown (quarantine) until a SOC analyst intervenes.
 
-## Demo Video
-[Watch Demo Here](https://drive.google.com/your-shareable-link)
+7. **SOC Dashboard (`apps/dashboard`)**
+   - Futuristic Next.js UI for the Security Operations Center.
+   - Features a conversational **AI SOC Assistant** built directly into the UI to help human analysts triage incoming threat streams.
 
-## Installation Steps
+---
+
+## 💻 Quick Start Orchestration
+
+We have unified the backend microservices using two primary deployment strategies:
+
+### Option A: Local Dev Deployment (Faster Debugging)
+Run all 4 backend cloud services directly in your terminal using the npm orchestrator:
+
 ```bash
-# Clone the repository
-git clone <your-repo-link>
-
-# Go to project folder
-cd SentinelAI
-
-# Install dependencies
-npm install
-
-# Configure Google Gemini
-# Create a .env file and add your key: GEMINI_API_KEY=your_key_here
-
-# Run the Background Endpoint Agent
-node bin/sentinel.js start
-
-# Launch the Web Command Center
-node bin/sentinel.js dashboard
+npm install # Installs root orchestrators
+npm run deploy:local
 ```
+
+*In separate terminals, run the client layers:*
+```bash
+npm run start:agent
+npm run start:dashboard
+```
+
+### Option B: Docker Cloud Deployment (Production)
+Deploy the API Gateway, Sandbox, Threat Intel, and Identity engines to an isolated Docker Bridge network:
+
+```bash
+npm run deploy:cloud
+```
+
+*Note: The `agent-daemon` and `browser-extension` must run natively on the host to intercept OS/Browser APIs.*
+
+---
+
+## ⚙️ Environment Configuration
+
+Ensure you have a `.env` file at the root of `apps/api-gateway` containing:
+
+```env
+GEMINI_API_KEY="AI_KEY_HERE"
+```
+
+## 🏗️ Future Roadmap
+- Cloud Sandbox API integration via hypervisor VMs (replacing basic Docker containers).
+- Rust kernel-level drivers for the Endpoint Agent.
+- Active Directory / Azure AD integration for the Zero Trust Identity Engine.

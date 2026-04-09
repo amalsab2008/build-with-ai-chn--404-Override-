@@ -1,0 +1,20 @@
+{
+  "Agent_UK_01": {
+    "deviceOs": "Windows 11",
+    "trustScore": 100,
+    "violationCount": 0,
+    "quarantined": false
+  },
+  "Agent_US_09": {
+    "deviceOs": "Windows 10",
+    "trustScore": 100,
+    "violationCount": 0,
+    "quarantined": false
+  },
+  "Agent_LCL_01": {
+    "deviceOs": "Windows 11",
+    "trustScore": -570,
+    "violationCount": 19,
+    "quarantined": true
+  }
+}

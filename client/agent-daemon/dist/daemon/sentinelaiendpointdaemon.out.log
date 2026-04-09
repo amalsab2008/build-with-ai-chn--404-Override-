@@ -1,0 +1,19 @@
+[Sentinel Agent] Starting daemon... Identity: Agent_LCL_01
+[Sentinel Agent] Monitoring: C:\Users\amals
+[OS Monitor] Native Process hooks engaged. Monitoring process trees...
+[Fileless Defense] In-memory active process scanner engaged.
+[Network Sniffer] Engaging synthetic eBPF network hooks...
+[Network Sniffer] Outbound traffic monitoring active.
+[Sentinel Agent] Running in background. Waiting for events...
+[Swarm] Connected to local P2P Mesh Network on UDP 41234
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\6dc9ca2a-599b-4f8a-9745-b65f17f5103f.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\8d16b765-4881-43c3-ac1e-5ca2ca90b6fb.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Microsoft\TokenBroker\Cache\01c5cb21ab1d4fd56e65159d6c36cd5db1f647e1.tbres
+[🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
+[Alert] New file detected: C:\Users\amals\Downloads\secure\PHASES_14_TO_20_MAPPING.md
+[🚫 NETWORK ALERT] Sub-process attempting outbound connection to known C2 server (104.24.11.2)!
+[🚫 NETWORK ALERT] Intercepting socket and forcing TCP RST...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\a64ab72c-b505-40b8-9a9b-6a0a37db8935.tmp
+[🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\f0a5e863-0186-4ffc-87a0-34e7fac978b0.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\faf7ef8c-cf74-4284-92fb-8e1296202e7c.tmp

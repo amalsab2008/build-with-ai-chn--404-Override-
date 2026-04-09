@@ -1,0 +1,28 @@
+{
+  "name": "@sentinel/agent-daemon",
+  "version": "1.0.0",
+  "description": "Local Agent for SentinelAI Endpoint Detection",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
+    "build": "tsc",
+    "install:service": "npm run build && node install-service.js",
+    "uninstall:service": "node uninstall-service.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chokidar": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "node-windows": "^1.0.0-beta.8",
+    "socket.io-client": "^4.8.3",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/ws": "^8.5.10",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

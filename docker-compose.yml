@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  api-gateway:
+    build:
+      context: ./apps/api-gateway
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=production
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    networks:
+      - sentinel-net
+
+  sandbox-engine:
+    build:
+      context: ./services/sandbox-engine
+    ports:
+      - "4001:4001"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - sentinel-net
+
+  threat-intel:
+    build:
+      context: ./services/threat-intel
+    ports:
+      - "4002:4002"
+    networks:
+      - sentinel-net
+
+  identity-engine:
+    build:
+      context: ./services/identity-engine
+    ports:
+      - "4003:4003"
+    networks:
+      - sentinel-net
+
+networks:
+  sentinel-net:
+    driver: bridge

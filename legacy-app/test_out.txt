@@ -1,0 +1,12 @@
+CWD: C:\Users\amals\Downloads\secure
+Error loading module: Cannot find module 'express'
+Require stack:
+- C:\Users\amals\Downloads\secure\test.js
+Paths searched:
+[
+  "C:\\Users\\amals\\Downloads\\secure\\node_modules",
+  "C:\\Users\\amals\\Downloads\\node_modules",
+  "C:\\Users\\amals\\node_modules",
+  "C:\\Users\\node_modules",
+  "C:\\node_modules"
+]

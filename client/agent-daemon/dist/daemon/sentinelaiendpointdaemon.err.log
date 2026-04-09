@@ -1,0 +1,4 @@
+[OS Sensor] Native Rust sensor not found. Falling back to PowerShell WMI polling...
+[OS Sensor] (To enable real-time tracking, compile 'packages/windows-sensor' with cargo)
+[Error] Failed to report telemetry: 
+[Error] Failed to report telemetry: 

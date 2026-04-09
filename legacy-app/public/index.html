@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelAI - Command Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="dark-theme">
+    <div class="hologram-overlay"></div>
+    <div class="dashboard-container">
+        
+        <header class="top-nav">
+            <div class="brand">
+                <span class="shield-icon">🛡️</span>
+                <h1>Sentinel<span class="highlight">AI</span></h1>
+            </div>
+            <div class="system-status">
+                <div class="pulse-dot"></div>
+                <span id="sys-status-text">SYSTEM ONLINE & SECURE</span>
+            </div>
+        </header>
+
+        <main class="grid-layout">
+            <!-- Left Column: Metrics -->
+            <section class="metrics-panel">
+                <div class="metric-card glass">
+                    <h3>Files Inspected</h3>
+                    <div class="value" id="val-scanned">0</div>
+                </div>
+                <div class="metric-card glass alert-card">
+                    <h3>Threats Blocked</h3>
+                    <div class="value text-red" id="val-blocked">0</div>
+                </div>
+                <div class="metric-card glass">
+                    <h3>Quarantined (VBox)</h3>
+                    <div class="value text-yellow" id="val-sandboxed">0</div>
+                </div>
+                <div class="metric-card glass">
+                    <h3>System Load</h3>
+                    <div class="sub-value">Mem: <span id="val-ram" style="color: #00ffcc">0 MB</span></div>
+                    <div class="sub-value">Uptime: <span id="val-uptime" style="color: #00ffcc">0 min</span></div>
+                </div>
+            </section>
+
+            <!-- Middle Column: Main Visualization (Live Terminal) -->
+            <section class="terminal-panel glass">
+                <div class="panel-header">
+                    <h2>Live Threat Stream</h2>
+                    <span class="badge">WebSocket Live</span>
+                </div>
+                <div class="terminal-window" id="terminal-output">
+                    <div class="log-line info">[SYSTEM] SentinelAI Daemon connected... awaiting file drops.</div>
+                </div>
+            </section>
+
+            <!-- Right Column: Recent Scans -->
+            <section class="history-panel glass">
+                 <div class="panel-header">
+                    <h2>Recent Detections</h2>
+                </div>
+                <div class="history-list" id="history-list">
+                    <!-- Dynamic Items Go Here -->
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div style="flex: 1;"></div>
+            <p>SentinelAI Neural Sandbox v2.0 - Powered by Google Gemini</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

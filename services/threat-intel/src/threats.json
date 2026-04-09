@@ -1,0 +1,32 @@
+{
+  "e1112134b6dcc8be25d808e03e4d9426": {
+    "type": "Ransomware",
+    "severity": 99,
+    "reason": "Known LockBit Hash"
+  },
+  "5e884898da28047151d0e56f8dc62927": {
+    "type": "Trojan",
+    "severity": 95,
+    "reason": "Emotet Payload"
+  },
+  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": {
+    "type": "Suspicious Executable (Offline)",
+    "severity": 92,
+    "reason": "API Offline. Strict heuristics engaged for executables/scripts."
+  },
+  "aa07e3fde731b51f30af484627695690ea5668c371cfbd0123f08a6bf07371df": {
+    "type": "Suspicious Executable (Offline)",
+    "severity": 92,
+    "reason": "API Offline. Strict heuristics engaged for executables/scripts."
+  },
+  "a24cd16c62f66ce953601fc48f9b16451b5188cc0baec8bd575ffcb7704b343e": {
+    "type": "Packed/Encrypted Malware",
+    "severity": 95,
+    "reason": "The file exhibits maximum Shannon Entropy (8.00), which is a strong indicator of packed or encrypted malicious content, likely designed to evade detection."
+  },
+  "HONEYPOT": {
+    "type": "Honeypot Interaction / Data Encryption Attempt",
+    "severity": 95,
+    "reason": "An unauthorized file-read/encryption attempt on a system explicitly identified as a honeypot signifies a confirmed active threat actor with malicious intent. This behavior strongly suggests an attempt to compromise credentials or enact data sabotage."
+  }
+}

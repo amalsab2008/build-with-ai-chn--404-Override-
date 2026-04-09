@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SentinelAI Web Defender",
+  "version": "1.0",
+  "description": "Zero Trust URL Phishing Protection & Detonation",
+  "permissions": ["webNavigation", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

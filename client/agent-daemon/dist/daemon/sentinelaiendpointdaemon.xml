@@ -1,0 +1,33 @@
+<service>
+	<id>sentinelaiendpointdaemon.exe</id>
+	<name>SentinelAI Endpoint Daemon</name>
+	<description>The real-time background zero-trust OS monitor for SentinelAI.</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>C:\Users\amals\Downloads\secure\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Users\amals\Downloads\secure\client\agent-daemon\dist\index.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>SentinelAI Endpoint Daemon wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<env name="WATCH_DIR" value="C:\Users\amals"/>
+	<env name="GATEWAY_URL" value="http://localhost:4000/api/telemetry"/>
+	<serviceaccount>
+		<domain>LAPTOP-2GECQSOV</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\Users\amals\Downloads\secure\client\agent-daemon</workingdirectory>
+</service>
