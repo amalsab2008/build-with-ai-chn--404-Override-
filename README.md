@@ -10,6 +10,8 @@ The SentinelAI Enterprise Dashboard features military-grade threat tracing, zero
 
 ![SentinelAI Dashboard Overview](assets/full_dashboard.png)
 
+![SentinelAI Live Video Recording](assets/demo.webp)
+
 ### Biological Threat Forensics & Global Attack Chaining
 Our engine visualizes exact DNA mutations of 0-days and mathematically traces C2 IP geographical origins in real-time. 
 
