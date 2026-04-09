@@ -4,6 +4,7 @@ import chokidar from 'chokidar';
 import axios from 'axios';
 import dotenv from 'dotenv';
 import path from 'path';
+import os from 'os';
 
 import { startProcessMonitor } from './process-monitor';
 import { startMemoryScanner } from './memory-scanner';
@@ -14,7 +15,7 @@ dotenv.config();
 
 const GATEWAY_URL = process.env.GATEWAY_URL || 'http://localhost:4000/api/telemetry';
 const GATEWAY_SOCKET = 'http://localhost:4000';
-const WATCH_DIR = process.env.WATCH_DIR || process.env.USERPROFILE || process.env.HOME || 'C:\\'; // Monitoring the user profile instead of raw C:\ to avoid EPERM
+const WATCH_DIR = process.env.WATCH_DIR || os.homedir(); // Universal OS Home mapping
 const AGENT_ID = 'Agent_LCL_01'; // Default ID
 
 console.log(`[Sentinel Agent] Starting daemon... Identity: ${AGENT_ID}`);
@@ -26,7 +27,7 @@ socket.on('connect', () => {
    console.log(`[Zero Trust] Connected to Identity Gateway. SOAR Active.`);
    // Register heartbeat
    setInterval(() => {
-        axios.post('http://localhost:4003/api/identity/heartbeat', { agentId: AGENT_ID, os: 'Windows 11' })
+        axios.post('http://localhost:4003/api/identity/heartbeat', { agentId: AGENT_ID, os: `${os.type()} ${os.release()}` })
              .catch(() => {});
    }, 30000);
 });
@@ -59,7 +60,7 @@ const broadcastNewThreat = (hash: string, filename: string) => {
 // -------------------------------------------------------------
 // KINETIC RANSOMWARE ROLLBACK (VSS)
 // -------------------------------------------------------------
-const VSS_CACHE = path.join(process.env.USERPROFILE || process.env.HOME || '', '.sentinel_vss_snapshot');
+const VSS_CACHE = path.join(os.homedir(), '.sentinel_vss_snapshot');
 if (!fs.existsSync(VSS_CACHE)) {
     fs.mkdirSync(VSS_CACHE, { recursive: true });
 }
@@ -77,14 +78,16 @@ socket.on('soar_playbook', (data: { agentId: string, playbook: string }) => {
     if (data.agentId === AGENT_ID) {
         console.log(`\n[SOAR Engine] Remote playbook initiated by AI Gateway: ${data.playbook}`);
         if (data.playbook === 'VSS_RESTORE') {
-            console.log(`[SOAR Engine] Executing physical Volume Shadow Copy service to rollback encrypted files...`);
+            const isWindows = os.platform() === 'win32';
+            const restoreMethod = isWindows ? 'Volume Shadow Copy (VSS)' : 'ZFS/APFS Storage Snapshot';
+            console.log(`[SOAR Engine] Executing physical ${restoreMethod} service to rollback encrypted files...`);
             
             // Kinetic Restore (Mechanical Demo)
             const backupFile = path.join(VSS_CACHE, 'recovered_document.txt');
-            fs.writeFileSync(backupFile, "This file was safely recovered by SentinelAI's physical VSS Rollback engine.");
+            fs.writeFileSync(backupFile, "This file was safely recovered by SentinelAI's physical Rollback engine.");
             
             setTimeout(() => {
-                console.log(`[SOAR Engine] VSS Rollback Complete. Encrypted files purged. Clean data restored from secure cache (Check ${VSS_CACHE}).`);
+                console.log(`[SOAR Engine] ${restoreMethod} Rollback Complete. Encrypted files purged. Clean data restored from secure cache.`);
             }, 2000);
         } else if (data.playbook === 'KILL_AND_CLEAN') {
             console.log(`[SOAR Engine] Force-killing rogue process trees and clearing Temp/AppData payloads... done.`);
@@ -101,7 +104,7 @@ startMemoryScanner();
 // -------------------------------------------------------------
 // DECEPTION TECHNOLOGY (Honeypot)
 // -------------------------------------------------------------
-const HONEYPOT_PATH = path.join(process.env.USERPROFILE || process.env.HOME || '', 'Downloads', 'admin_passwords_hidden.yaml');
+const HONEYPOT_PATH = path.join(os.homedir(), 'Downloads', 'admin_passwords_hidden.yaml');
 try {
     fs.writeFileSync(HONEYPOT_PATH, 'access_key: "AKIAIOSFODNN7EXAMPLE"\nsecret_key: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"');
     console.log(`[Deception] Honeypot deployed to ${HONEYPOT_PATH}.`);

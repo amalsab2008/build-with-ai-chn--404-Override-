@@ -17,3 +17,65 @@
 [🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
 [Alert] New file detected: C:\Users\amals\AppData\Local\Temp\f0a5e863-0186-4ffc-87a0-34e7fac978b0.tmp
 [Alert] New file detected: C:\Users\amals\AppData\Local\Temp\faf7ef8c-cf74-4284-92fb-8e1296202e7c.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\49337381-46ad-4769-989b-86439fa7d427.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\54886405-cceb-4ff8-8f84-72a3a6a8fed5.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_25_846Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_25_855Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_25_857Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_25_889Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_26_403Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_26_408Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_25_870Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_26_441Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_26_470Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_26_450Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_27_26_426Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e86
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e87
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004e88
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\05e8572c71fcc016_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\3e31cd2f57c49433_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\5237edd3f7566743_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\643ae9fdbfad9a85_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\71ddd4d6b257cd9d_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\99d04d9bbd341457_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\b446e2f5462f5186_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\beb9380787f9c42a_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\eccac48cb0c8c641_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\f5f05ccd0711a31f_0
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: WARN
+[Telemetry] Sent to Gateway - Server responded: WARN
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\a53b5a97-9652-49fa-a6a1-e0a67e2a8fa8.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\1228345a-2f87-4887-be29-77089b489dc7.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsMostVisited\36aa3192-f32b-4bdc-aa70-58185f9e4dbd.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsMostVisited\6eb5a57c-3e7f-4f63-9efb-668fe7989540.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsMostVisited\876699d4-6334-446d-b3a4-f79be17b9954.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsMostVisited\87fe487d-7fc5-4427-b8ee-a03bac29c1aa.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsMostVisited\e4497740-3fbe-4d53-b6c8-a4a249f8a583.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsRecentClosed\a1576a80-9863-424f-99fa-3c1729c77dd8.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsRecentClosed\b694fc02-9671-455c-8941-55c4b2ebaf53.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\JumpListIconsRecentClosed\b9532835-af63-4605-8132-f680a22756a0.tmp
+[🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_34_18_319Z-debug-0.log

@@ -2,3 +2,16 @@
 [OS Sensor] (To enable real-time tracking, compile 'packages/windows-sensor' with cargo)
 [Error] Failed to report telemetry: 
 [Error] Failed to report telemetry: 
+
+[DECEPTION TRIPPED] High-severity access to Honeypot file!
+
+[DECEPTION TRIPPED] High-severity access to Honeypot file!
+[TARPIT] Routing attacker to Generative AI Shell environment...
+[TARPIT] Routing attacker to Generative AI Shell environment...
+[TARPIT] Simulated AI stdout returned to attacker:
+command not found: cat admin_passwords_hidden.yaml
+[Cloud Defense] FATAL WARNING: Container escape sequence detected in 'containerd-shim' (PID: 1042).
+[Cloud Defense] Sub-process attempting to mount host cgroups and escalate CAP_SYS_ADMIN privileges!
+[Cloud Defense] FATAL WARNING: Container escape sequence detected in 'containerd-shim' (PID: 1042).
+[Cloud Defense] Sub-process attempting to mount host cgroups and escalate CAP_SYS_ADMIN privileges!
+[Error] Failed to report telemetry: 
