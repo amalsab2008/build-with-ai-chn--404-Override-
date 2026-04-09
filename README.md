@@ -8,7 +8,7 @@ Built on a microservices mesh, it transforms disjointed endpoints into a unified
 
 The SentinelAI Enterprise Dashboard features military-grade threat tracing, zero-trust biometric locks, and an integrated Generative UI SOC Assistant.
 
-![SentinelAI Demo Video](assets/demo.webp)
+![SentinelAI Dashboard Overview](assets/full_dashboard.png)
 
 ### Biological Threat Forensics & Global Attack Chaining
 Our engine visualizes exact DNA mutations of 0-days and mathematically traces C2 IP geographical origins in real-time. 

@@ -213,3 +213,7 @@ command not found: cat admin_passwords_hidden.yaml
 [TARPIT] Routing attacker to Generative AI Shell environment...
 [TARPIT] Simulated AI stdout returned to attacker:
 command not found: cat admin_passwords_hidden.yaml
+[Fileless Defense] WARNING: High-entropy memory region detected in 'powershell.exe' (PID: 4812).
+[Fileless Defense] Characteristic of Reflective DLL Injection or Obfuscated Shellcode.
+[Cloud Defense] FATAL WARNING: Container escape sequence detected in 'containerd-shim' (PID: 1042).
+[Cloud Defense] Sub-process attempting to mount host cgroups and escalate CAP_SYS_ADMIN privileges!

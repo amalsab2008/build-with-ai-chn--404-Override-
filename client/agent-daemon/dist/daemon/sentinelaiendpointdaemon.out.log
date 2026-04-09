@@ -414,3 +414,44 @@
 [Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\AC\6F75932F-7DFC-4FB0-B4B8-12DE1AC415DA_VEN_8086&DEV_A7A8&SUBSYS_1693&REV_4.dxcache-wal
 [Telemetry] Sent to Gateway - Server responded: ALLOW
 [Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Microsoft\Windows\Caches\{0DAF2A9F-B905-4D30-88C9-B63C603DA134}.3.ver0x0000000000000001.db
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Network\0b6b0065-49f0-4511-956f-64bd17c008ff.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\NVIDIA Corporation\NVIDIA Overlay\CefCache\Default\Network\8dd163d2-cd09-4b94-a0d1-29ae442f6a70.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\d2113f39-39e5-46c0-bf9b-4fba8232c4c9.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\f0dd23f4-a26a-4d3d-91a4-d537f82862aa.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Preferences
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalState\DiagOutputDir\GameBar_20260409075540_Sh.etl
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\Logs\Log-XboxGameBarWidgetsLoggingSession-0.etl
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\DiagOutputDir\XboxGameBarWidgets\XboxGameBarWidgets_20260409075559_Su.etl
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\NVIDIA Corporation\NVIDIA Overlay\CefCache\Default\Network\3877c340-80a1-4a37-b263-ae7422004b8f.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Roaming\Antigravity\blob_storage\3981a698-a2ce-4efd-bd0d-97a593f2fd89\2
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\Downloads\secure\assets\demo.webp
+[Alert] New file detected: C:\Users\amals\Downloads\secure\assets\attack_chain.png
+[Alert] New file detected: C:\Users\amals\Downloads\secure\assets\dna_profile.png
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\NVIDIA Corporation\NVIDIA Overlay\CefCache\Default\Network\effdf388-9cd9-4197-a75e-e539194945f6.tmp
+[🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
+[🚫 NETWORK ALERT] Sub-process attempting outbound connection to known C2 server (104.24.11.2)!
+[🚫 NETWORK ALERT] Intercepting socket and forcing TCP RST...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\95584a52-eb3c-48aa-9763-99d46002726c.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\6ba2562e-0c39-4de1-895d-11faf99204a3.tmp
+[🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eb3
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eb4
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eb5
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\48b8da66be3e71f7_0
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eb6
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Network\270ce81e-8b17-46bc-85d6-6606e98a4cb7.tmp
