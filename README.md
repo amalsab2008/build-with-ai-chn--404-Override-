@@ -4,6 +4,18 @@ SentinelAI is an advanced, distributed Extended Detection and Response (XDR) pla
 
 Built on a microservices mesh, it transforms disjointed endpoints into a unified, zero-trust hive-mind capable of blocking zero-day malware, phishing campaigns, and lateral movement in sub-second latency.
 
+## 🖥️ Live Demonstration
+
+The SentinelAI Enterprise Dashboard features military-grade threat tracing, zero-trust biometric locks, and an integrated Generative UI SOC Assistant.
+
+![SentinelAI Demo Video](assets/demo.webp)
+
+### Biological Threat Forensics & Global Attack Chaining
+Our engine visualizes exact DNA mutations of 0-days and mathematically traces C2 IP geographical origins in real-time. 
+
+![Active Attack Chain UI](assets/attack_chain.png)
+![DNA Profile UI](assets/dna_profile.png)
+
 ## 🚀 The Architecture (6 Core Modules)
 
 SentinelAI has evolved from a basic folder-monitor into a full enterprise suite:

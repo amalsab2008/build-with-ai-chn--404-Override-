@@ -234,3 +234,183 @@
 [Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\EdgeJourneys\EdgeJourneys.db-wal
 [Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\DIPS-wal
 [Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\AutofillAiModelCache\LOG
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\BrowserMetrics-spare.pma
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\BrowserMetrics-spare.pma.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\BrowserMetrics-spare.pma
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\System Profile\SharedStorage-wal
+[🚫 NETWORK ALERT] Sub-process attempting outbound connection to known C2 server (104.24.11.2)!
+[🚫 NETWORK ALERT] Intercepting socket and forcing TCP RST...
+[Alert] New file detected: C:\Users\amals\AppData\Local\D3DSCache\1933c870be838b51\6F75932F-7DFC-4FB0-B4B8-12DE1AC415DA_VEN_8086&DEV_A7A8&SUBSYS_1693&REV_4.dxcache-shm
+[Alert] New file detected: C:\Users\amals\AppData\Local\D3DSCache\1933c870be838b51\6F75932F-7DFC-4FB0-B4B8-12DE1AC415DA_VEN_8086&DEV_A7A8&SUBSYS_1693&REV_4.dxcache-wal
+[Alert] New file detected: C:\Users\amals\AppData\Local\D3DSCache\1933c870be838b51\F4EB2D6C-ED2B-4BDD-AD9D-F913287E6768.dxcache-shm
+[Alert] New file detected: C:\Users\amals\AppData\Local\D3DSCache\1933c870be838b51\F4EB2D6C-ED2B-4BDD-AD9D-F913287E6768.dxcache-wal
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\1dd2700bda97df09_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\379bc872da08ff99_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\43456876edd390fd_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\43f91189e2fa21e1_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\6fbd4d8f9551a5e4_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\75bc796ac51b8a2f_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\86f105fdd0231b29_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\b1cf80ccf00eb4e1_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eaa
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eab
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\cc3b6ca98b458ab5_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\ed00c788f52ed082_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\f0daca076ebb0f3f_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eac
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eae
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\1bfe382e73e48ec1_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\4c9dca10a0a7fc31_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\57053068a883b150_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\6e6acdc89c07dea1_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\78cb5971dc892499_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\c3fdf64d8711e404_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Code Cache\js\fdb976a91c9e72f1_0
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d1e
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d1f
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eaf
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eb0
+[Alert] New file detected: C:\Users\amals\AppData\Local\NVIDIA Corporation\NVIDIA Overlay\CefCache\Default\Network\7c665c84-44f3-4713-b6c8-45994ad5973e.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\GrShaderCache\f_000d20
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\9e154c67-9db2-476a-9aa5-66b526c84886.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eb1
+[Alert] New file detected: C:\Users\amals\AppData\Local\NVIDIA Corporation\NVIDIA Overlay\CefCache\Default\Network\e391ea0b-b9bd-4d84-aefe-b82e3224dd55.tmp
+[🦅 CANARY SYSTEM] Simulating public internet token exfiltration event...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Profile 1\Cache\Cache_Data\f_004eb2
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Safe Browsing\UrlSoceng.store.4_13420194566447321
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Safe Browsing\UrlBilling.store.4_13420194566707214
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Safe Browsing\UrlMalBin.store.4_13420194566704503
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Safe Browsing\UrlMalware.store.4_13420194566695460
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Safe Browsing\UrlSubresourceFilter.store.4_13420194566709767
+[Alert] New file detected: C:\Users\amals\AppData\Local\Google\Chrome\User Data\Safe Browsing\UrlUws.store.4_13420194566700059
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalState\Logs\Log-GameBarLoggingSession-0.etl
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalState\DiagOutputDir\GameBar_20260409074944_Sh.etl
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\Logs\Log-XboxGameBarWidgetsLoggingSession-0.etl
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\DiagOutputDir\XboxGameBarWidgets\XboxGameBarWidgets_20260409074944_Su.etl
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\c99f3634-f77f-4460-ae0b-bc8c174966a2.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\79665c2f-7dc5-40ec-9f7c-bea9e8d0e72f.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\e15be621-18c6-41b0-813b-393e2099a5d4.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_19_315Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_19_859Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_19_869Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_19_877Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_19_841Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_20_344Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_20_387Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_19_853Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_20_305Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_20_409Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_20_442Z-debug-0.log
+[Alert] New file detected: C:\Users\amals\AppData\Local\npm-cache\_logs\2026-04-09T07_50_20_461Z-debug-0.log
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: WARN
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\01407275-ba6c-437f-964c-8703d6664902.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\20abe9e3-d24a-4040-bd29-c7857d73ffc7.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\c0cd2fc6-d75e-4fc4-8e96-fb3d64347a07.tmp
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\AC\Temp\e99a5000-e1b1-4814-a6d0-af5c766d8b76.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalState\Logs\Log-GameBarLoggingSession-1.etl
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\LocalState\DiagOutputDir\XboxGamingOverlayTraces_FT_Server_20260409075040.txt
+[Alert] New file detected: C:\Users\amals\AppData\Roaming\Microsoft\Windows\Recent\ms-gamingoverlay--startuptips-pid=23936&WindowId=853084.lnk
+[Zero Trust] Connected to Identity Gateway. SOAR Active.
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\CrashpadMetrics.pma
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\Logs\Log-XboxGameBarWidgetsLoggingSession-1.etl
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\BrowserMetrics\BrowserMetrics-69D75A55-6004.pma
+[Alert] New file detected: C:\Users\amals\AppData\Roaming\Antigravity\blob_storage\3981a698-a2ce-4efd-bd0d-97a593f2fd89\1
+[Alert] New file detected: C:\Users\amals\AppData\Local\Microsoft\TokenBroker\Cache\8c7e472faae62cf8ca94b7baf2c0c6c0c9ae6cc9.tbres
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\chrome_chrome_BITS_23936_1609414811\BIT9BE0.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\EdgeJourneys\EdgeJourneys.db-wal
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\DIPS-wal
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\90e76c31-7280-4205-9e43-22010560981f.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\optimization_guide_hint_cache_store\LOG.old~RFdeb27f.TMP
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\optimization_guide_hint_cache_store\LOG
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\AutofillAiModelCache\LOG.old~RFdeb398.TMP
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\AutofillAiModelCache\LOG
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\AutofillStrikeDatabase\LOG.old~RFdeb648.TMP
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\AutofillStrikeDatabase\LOG.old~RFdeb8f7.TMP
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Edge-Local-State-Tmp-77e9f14d-5b92-4798-8251-e1dc1b48359d.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Local State~RFdeb9a3.TMP
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\AutofillStrikeDatabase\LOG
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\BudgetDatabase\LOG.old~RFdebbd6.TMP
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\BudgetDatabase\LOG.old
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Feature Engagement Tracker\AvailabilityDB\LOG.old~RFdebd8b.TMP
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\BudgetDatabase\LOG
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\3a427118-c1e4-431e-9607-cdcb107b2257.tmp
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Feature Engagement Tracker\AvailabilityDB\LOG.old~RFdec25e.TMP
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Temp\renderer-859986.cpuprofile.json
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Network\0984b3c7-cdd8-4bd5-bad0-795f7f8d3d54.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Feature Engagement Tracker\AvailabilityDB\LOG.old~RFdec25e.TMP
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Network\Network Persistent State~RFded9ce.TMP
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Feature Engagement Tracker\AvailabilityDB\LOG.old
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Feature Engagement Tracker\AvailabilityDB\LOG
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Feature Engagement Tracker\EventDB\LOG.old~RFdedfc9.TMP
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Feature Engagement Tracker\EventDB\LOG.old
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\Default\Feature Engagement Tracker\EventDB\LOG
+[Telemetry] Sent to Gateway - Server responded: BLOCK
+[ACTION] High risk threat blocked. Removing file...
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\BrowserMetrics-spare.pma.tmp
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\LocalState\EBWebView\BrowserMetrics-spare.pma
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Microsoft\TokenBroker\Cache\1a855791cd47f27db911fbf207949df05e462c58.tbres
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\D3DSCache\1933c870be838b51\6F75932F-7DFC-4FB0-B4B8-12DE1AC415DA_VEN_8086&DEV_A7A8&SUBSYS_1693&REV_4.dxcache-shm
+[Alert] New file detected: C:\Users\amals\AppData\Local\D3DSCache\1933c870be838b51\6F75932F-7DFC-4FB0-B4B8-12DE1AC415DA_VEN_8086&DEV_A7A8&SUBSYS_1693&REV_4.dxcache-wal
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\AC\6F75932F-7DFC-4FB0-B4B8-12DE1AC415DA_VEN_8086&DEV_A7A8&SUBSYS_1693&REV_4.dxcache-shm
+[Alert] New file detected: C:\Users\amals\AppData\Local\Packages\Microsoft.GamingApp_8wekyb3d8bbwe\AC\6F75932F-7DFC-4FB0-B4B8-12DE1AC415DA_VEN_8086&DEV_A7A8&SUBSYS_1693&REV_4.dxcache-wal
+[Telemetry] Sent to Gateway - Server responded: ALLOW
+[Telemetry] Sent to Gateway - Server responded: ALLOW

@@ -13,8 +13,8 @@
   },
   "Agent_LCL_01": {
     "deviceOs": "Windows 11",
-    "trustScore": -570,
-    "violationCount": 19,
+    "trustScore": -1300,
+    "violationCount": 38,
     "quarantined": true
   }
 }
