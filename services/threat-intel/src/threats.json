@@ -28,5 +28,60 @@
     "type": "Honeypot Interaction / Data Encryption Attempt",
     "severity": 95,
     "reason": "An unauthorized file-read/encryption attempt on a system explicitly identified as a honeypot signifies a confirmed active threat actor with malicious intent. This behavior strongly suggests an attempt to compromise credentials or enact data sabotage."
+  },
+  "aabbcc112233": {
+    "type": "Packed Executable (Offline)",
+    "severity": 99,
+    "reason": "API Offline. Strict heuristics engaged for executables/scripts."
+  },
+  "gemini_unique_hash_999": {
+    "type": "Packed Executable (Offline)",
+    "severity": 99,
+    "reason": "API Offline. Strict heuristics engaged for executables/scripts."
+  },
+  "cd0d24fecbccecfa4a0bdcac20026d43e4c4251c5a13ad514189b7f637006853": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
+  },
+  "3ce40c55b8ac130f4c439679e200a66c2a653ed908187bcf45548265307c68c2": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
+  },
+  "a51e6030200888be6f3f32a4b5d78139a89f01ac5794cceee8d9d9392c6663d1": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
+  },
+  "ddcad5d42c08c2b4c0dd0fbb7d83afd6fe02733f75324a0079c53610e5765d68": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
+  },
+  "3258a018d723b3ebd10fb5c3bf659555d2241d47ff1f14ae2bafaf7f52de5854": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
+  },
+  "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
+  },
+  "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
+  },
+  "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
+  },
+  "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540": {
+    "type": "Troj/Ransom-AI-Simulator",
+    "severity": 95,
+    "reason": "[SIMULATED AI] High entropy or unsafe extension detected. Reverse shell pattern matches APT29 behavior."
   }
 }

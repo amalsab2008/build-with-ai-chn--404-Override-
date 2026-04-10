@@ -7,8 +7,8 @@ import { createServer } from 'http';
 import { Server } from 'socket.io';
 import { analyzeThreat, TelemetryEvent } from './ai';
 
-dotenv.config();
-
+import path from 'path';
+dotenv.config({ path: path.resolve(__dirname, '../../../.env') }); // src -> api-gateway -> apps -> root
 const app = express();
 const port = process.env.PORT || 4000;
 

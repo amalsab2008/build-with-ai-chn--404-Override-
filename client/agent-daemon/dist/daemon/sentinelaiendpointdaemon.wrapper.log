@@ -1,2 +1,36 @@
 2026-04-09 12:45:01 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\amals\Downloads\secure\node_modules\node-windows\lib\wrapper.js --file C:\Users\amals\Downloads\secure\client\agent-daemon\dist\index.js --scriptoptions= --log "SentinelAI Endpoint Daemon wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2026-04-09 12:45:01 - Started 15912
+2026-04-09 20:50:32 - Stopping sentinelaiendpointdaemon.exe
+2026-04-09 20:50:32 - ProcessKill 15912
+2026-04-09 20:50:32 - Found child process: 13216 Name: conhost.exe
+2026-04-09 20:50:32 - Found child process: 3668 Name: node.exe
+2026-04-09 20:50:33 - Stopping process 13216
+2026-04-09 20:50:33 - Send SIGINT 13216
+2026-04-09 20:50:33 - SIGINT to 13216 failed - Killing as fallback
+2026-04-09 20:50:33 - Stopping process 3668
+2026-04-09 20:50:33 - Send SIGINT 3668
+2026-04-09 20:50:33 - SIGINT to 3668 failed - Killing as fallback
+2026-04-09 20:50:33 - Stopping process 15912
+2026-04-09 20:50:33 - Send SIGINT 15912
+2026-04-09 20:50:33 - SIGINT to 15912 failed - Killing as fallback
+2026-04-09 20:50:33 - Finished sentinelaiendpointdaemon.exe
+2026-04-09 21:05:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\amals\Downloads\secure\node_modules\node-windows\lib\wrapper.js --file C:\Users\amals\Downloads\secure\client\agent-daemon\dist\index.js --scriptoptions= --log "SentinelAI Endpoint Daemon wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-09 21:05:44 - Started 6080
+2026-04-09 21:11:43 - Stopping sentinelaiendpointdaemon.exe
+2026-04-09 21:11:43 - ProcessKill 6080
+2026-04-09 21:11:44 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-09 21:12:11 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\amals\Downloads\secure\node_modules\node-windows\lib\wrapper.js --file C:\Users\amals\Downloads\secure\client\agent-daemon\dist\index.js --scriptoptions= --log "SentinelAI Endpoint Daemon wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-09 21:12:11 - Started 7144
+2026-04-10 14:54:33 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\amals\Downloads\secure\node_modules\node-windows\lib\wrapper.js --file C:\Users\amals\Downloads\secure\client\agent-daemon\dist\index.js --scriptoptions= --log "SentinelAI Endpoint Daemon wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-10 14:54:33 - Started 7096

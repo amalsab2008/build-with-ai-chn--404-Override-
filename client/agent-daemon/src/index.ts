@@ -115,7 +115,7 @@ const isHoneypot = (filePath: string) => filePath.includes('admin_passwords_hidd
 
 // Initialize simple file watcher (mocking OS hooks for Phase 1)
 const watcher = chokidar.watch(WATCH_DIR, {
-  ignored: /(^|[\/\\])\../, // ignore dotfiles
+  ignored: [/(^|[\/\\])\../, /AppData/], // ignore dotfiles and AppData metrics
   persistent: true,
   ignoreInitial: true,
   ignorePermissionErrors: true
